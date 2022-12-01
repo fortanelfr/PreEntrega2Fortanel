@@ -15,6 +15,7 @@ body {
     overflow: hidden;
     display: flex;
     flex-direction: row;
+    background-image: linear-gradient(to bottom, black , rgb(162, 32, 32));
 }
 
 
@@ -66,6 +67,7 @@ body {
     height: 10%;
     width: 100%;
     background-color: rgb(162, 32, 32);
+    background-image: linear-gradient(to top, black , rgb(162, 32, 32));
     color: white;
     z-index: 100;
     overflow: hidden;
@@ -103,6 +105,10 @@ body {
 
     width: 10%;
     height: 80%
+}
+
+.imgContacto img:hover {
+    transform: translate(6px, -6px);
 }
 
 
