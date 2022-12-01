@@ -59,6 +59,43 @@ body {
 }
 
 
+.main {
+    position: fixed;
+    top: 17%;
+    height: 73%;
+    width: 100%;
+    display: flex;
+    flex-direction: row;
+    color: white;
+    font-family: Arial, Helvetica, sans-serif;
+    font-style: italic;
+    font-size: 20px;
+
+}
+.servicios {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+    height: 100%;
+    width: 15%;
+}
+
+.texto {
+    height: 100%;
+    width: 85%;
+}
+
+.servicios_logo {
+    height: 20%;
+    width: 85%;
+    align-items: center;
+}
+
+.servicios_logo:hover{
+    height: 25%;
+    width: 90%;
+}
+
 
 .footer {
     position: fixed;
@@ -112,7 +149,7 @@ body {
 }
 
 
-.main {
+.main1 {
     position:fixed; 
 	top: 17%;
     margin-left: 2%;
