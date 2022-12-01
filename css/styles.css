@@ -1,0 +1,122 @@
+body {
+    background-color: #2D2C2C;
+}
+
+
+
+.menu {
+    background: rgba(0, 0, 0, 0.7);
+    width: 100%;
+    height: 17%;
+    position: fixed;
+    top: 0;
+    left: 0;
+    z-index: 100;
+    overflow: hidden;
+    display: flex;
+    flex-direction: row;
+}
+
+
+.logo {
+    display: flex;
+    align-items: center;
+    top: 0;
+    left: 0;
+    width: 10%;
+    height: 100%
+}
+
+.imgLogo {
+    padding-left: 20%;
+    width: 80%;
+    height: 80%;
+}
+
+.button {
+    display: flex;
+    flex-direction: row;
+    width: 100%;
+}
+
+.button ul{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-evenly;
+    width: 100%;
+    align-items: center;
+}   
+.buttonMenu {
+    color: white;
+    font-family: Arial, Helvetica, sans-serif;
+    font-style: italic;
+    font-size:xx-large;
+}
+
+.buttonMenu:hover {
+    background: #eca023;
+}
+
+
+
+.footer {
+    position: fixed;
+    left: 0;
+    bottom: 0;
+    height: 10%;
+    width: 100%;
+    background-color: rgb(162, 32, 32);
+    color: white;
+    z-index: 100;
+    overflow: hidden;
+    display: flex;
+    flex-direction: row;
+}
+
+.Creditos {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    height: 100%;
+    width: 50%;
+} 
+
+.texto_creditos{
+    margin-left: 20%;
+    font-size:x-large;
+
+}
+
+
+.imgContacto {
+    height: 100%;
+    width: 50%;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: flex-end
+}
+
+.imgContacto img {
+    margin-left: 2%;
+    margin-right: 2%;
+
+    width: 10%;
+    height: 80%
+}
+
+
+.main {
+    position:fixed; 
+	top: 17%;
+    margin-left: 2%;
+    color: white;
+    font-family: Arial, Helvetica, sans-serif;
+    font-style: italic;
+    font-size: 20px;
+}
+
+.principal {
+    color: white;
+
+}
