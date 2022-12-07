@@ -1,0 +1,63 @@
+<!DOCTYPE html>
+<html lang="en">
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="../css/styles.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@100&display=swap" rel="stylesheet">
+
+<body>
+    <div id="grilla">
+        <header id = menu class="border">
+            <nav class="logo"><img class="imgLogo" src="../images/logo.jpg" alt=""></nav>
+            <nav class = button>
+            <ul>
+                <li><a class="buttonMenu" href="">Beneficios</a></li>
+                <li><a class="buttonMenu" href="">Contenido</a></li>
+                <li><a class="buttonMenu" href="">Premios</a></li>
+                <li><a class="buttonMenu" href="">Contacto</a></li>
+            </ul>
+        </nav>
+        </header>
+        <section id="descripcion" class="border">
+            <form class = "formulario" action="pages/Contacto.html" method="post">
+                <ul>
+                 <li>
+                   <label for="name">Nombre:</label>
+                   <input type="text" id="name" name="user_name">
+                 </li>
+                 <li>
+                   <label for="mail">Correo electrónico:</label>
+                   <input type="email" id="mail" name="user_mail">
+                 </li>
+                 <li>
+                   <label for="msg">Mensaje:</label>
+                   <textarea id="msg" name="user_message"></textarea>
+                 </li>
+                 <li class="button_contacto">
+                    <button type="submit" href="">Envíe su mensaje</button>
+                  </li>
+                </ul>
+               </form>
+        </section>
+
+        <aside class="border">
+            <nav class="publicidad"><img src="../images/publicidad.jpeg" alt=""></nav>
+        </aside>
+
+        <footer id = footer class="border">
+            <div class='Creditos'>
+                <p class="texto_creditos">2022 | Fernando Fortanel</p>
+            </div>
+            <div class='imgContacto'>
+                <img src="../images/linkedin.png" alt="">
+                <img src="../images/whattsapp.png" alt="">
+            </div>
+        </footer>
+   </div>
+   
+</body>
+
+</html>

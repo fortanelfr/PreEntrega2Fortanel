@@ -1,7 +1,5 @@
 <!DOCTYPE html>
 <html lang="en">
-
-<head>
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
@@ -9,43 +7,47 @@
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
     <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@100&display=swap" rel="stylesheet">
-    <title>Document</title>
-</head>
 
 <body>
-
-    <header class="menu">
-        <nav class="logo"><img class="imgLogo" src="./images/logo.jpg" alt=""></nav>
-        <nav class = button>
+    <div id="grilla">
+        <header id = menu class="border">
+            <nav class="logo"><img class="imgLogo" src="./images/logo.jpg" alt=""></nav>
+            <nav class = button>
             <ul>
                 <li><a class="buttonMenu" href="">Beneficios</a></li>
                 <li><a class="buttonMenu" href="">Contenido</a></li>
                 <li><a class="buttonMenu" href="">Premios</a></li>
-                <li><a class="buttonMenu" href="">Contacto</a></li>
+                <li><a class="buttonMenu" href="pages/Contacto.html">Contacto</a></li>
             </ul>
         </nav>
-    </header>
+        </header>
+        <section id="descripcion" class="border">
+            <div class="servicios">
+                <nav class="servicios_logo"><img class="imgLogo" src="./images/netflix.png" alt="" tabindex="0"></nav>
+                <nav class="servicios_logo"><img class="imgLogo" src="./images/amazon.jpg" alt=""></nav>
+                <nav class="servicios_logo"><img class="imgLogo" src="./images/hbo.jpeg" alt=""></nav>
+            </div>
+            <div class = "texto">
+                <h1>Streaming</h1>
+                <p>El anglicismo streaming, o en español transmisión en directo, ​ retransmisión o emisión en continuo​, se refiere a la distribución digital de contenido multimedia a través de una red de computadoras, de manera que el usuario utiliza el producto a la vez que se descarga.</p>
+    
+                <article>
+                    <h2>Servicios más populares</h2>
+                    <p>Para finales del 2021, The CIU reportó que las plataformas de streaming con más suscriptores en el país son:</p>
+                    <ul>
+                        <li>Netflix: 63.5%</li>
+                        <li>Disney+: 12.6%</li>
+                        <li>HBO Max: 9.3%</li>
+                      </ul>
+                </article>
+            </div>
+        </section>
 
-    <section class='main'>
-        <div class="servicios">
-            <nav class="servicios_logo"><img class="imgLogo" src="./images/netflix.png" alt="" tabindex="0"></nav>
-            <nav class="servicios_logo"><img class="imgLogo" src="./images/amazon.jpg" alt=""></nav>
-            <nav class="servicios_logo"><img class="imgLogo" src="./images/hbo.jpeg" alt=""></nav>
-        </div>
-        <div class = "texto">
-            <h1>Home</h1>
-            <p>Descripcion sobre la pagina</p>
+        <aside class="border">
+            <nav class="publicidad"><img src="./images/publicidad.jpeg" alt=""></nav>
+        </aside>
 
-            <article>
-                <h2>Más información</h2>
-                <p>Otra información</p>
-                <p>... </p>
-                <p>... </p>
-            </article>
-        </div>
-    </section>
-
-    <footer class='footer'>
+        <footer id = footer class="border">
             <div class='Creditos'>
                 <p class="texto_creditos">2022 | Fernando Fortanel</p>
             </div>
@@ -53,9 +55,9 @@
                 <img src="./images/linkedin.png" alt="">
                 <img src="./images/whattsapp.png" alt="">
             </div>
-    </footer>
+        </footer>
+   </div>
+   
 </body>
-
-
 
 </html>
